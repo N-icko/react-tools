@@ -1,0 +1,14 @@
+.counter {
+  .counter__container {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1%;
+    .counterButtons {
+      margin: 0 5px;
+      width: 100px;
+      height: 35px;
+    }
+  }
+}
