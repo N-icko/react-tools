@@ -1,0 +1,14 @@
+.form__container {
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+
+  .form__box {
+    width: 300px;
+    margin: 0 auto;
+    .form__input {
+      margin: 5px 0;
+      width: inherit;
+    }
+  }
+}

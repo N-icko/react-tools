@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css';
-import Counter from "../Components/Counter/Counter";
+import CounterComponent from "../Components/Counter/CounterComponent";
+import FormComponent from "../Components/Form/FormComponent"
 
 function App() {
     return (
-        <Counter/>
+        <div>
+            <CounterComponent/>
+            <FormComponent/>
+        </div>
     );
 }
 
