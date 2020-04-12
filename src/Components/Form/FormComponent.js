@@ -18,8 +18,8 @@ export default class FormComponent extends React.Component {
     };
 
     this.onChangeHandler = this.onChangeHandler.bind(this);
-    this.onSubmitHandler = this.onSubmitHandler.bind(this);
     this.onCheckBoxHandler = this.onCheckBoxHandler.bind(this);
+    this.onSubmitHandler = this.onSubmitHandler.bind(this);
   }
 
   onChangeHandler(e) {
