@@ -1,0 +1,19 @@
+.todoListInputWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1%;
+
+  .todoInput {
+	box-sizing: border-box;
+	width: 75%;
+	height: 50px;
+	font-size: x-large;
+	font-style: italic;
+  }
+
+  .todoAddButton {
+	width: 20%;
+	height: 50px;
+  }
+}

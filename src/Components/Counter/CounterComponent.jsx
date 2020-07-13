@@ -1,14 +1,14 @@
-import React from "react";
-import "./CounterComponent.scss";
-import { Button } from "@material-ui/core";
-import Box from "@material-ui/core/Box";
+import React from 'react';
+import './CounterComponent.scss';
+import { Button } from '@material-ui/core';
+import Box from '@material-ui/core/Box';
 
 export default class CounterComponent extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      count: 0
+      count: 0,
     };
 
     this.increment = this.increment.bind(this);
@@ -18,19 +18,19 @@ export default class CounterComponent extends React.Component {
 
   increment() {
     this.setState(() => ({
-      count: this.state.count + 1
+      count: this.state.count + 1,
     }));
   }
 
   decrement() {
     this.setState(() => ({
-      count: this.state.count - 1
+      count: this.state.count - 1,
     }));
   }
 
   reset() {
     this.setState(() => ({
-      count: 0
+      count: 0,
     }));
   }
 
